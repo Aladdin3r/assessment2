@@ -11,5 +11,5 @@
     * bit 2 = Shukran (my older sister)
     * bit 4 = Rama (my younger sister)
     * bit 8 = Jena (my youngest sister)
-        * bit 16 = Mom 
-* bit 32 = Dad 
+    * bit 16 = Mom 
+    * bit 32 = Dad 
