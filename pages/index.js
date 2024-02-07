@@ -3,11 +3,18 @@ import styles from "@/styles/Home.module.css";
 import { useState } from "react";
 import Image from "next/image";
 import bgImg from '../public/sky.svg';
+import rawan from '../public/rawan.svg';
+import jena from '../public/jena.svg';
+import rama from '../public/rama.svg';
+import shukran from '../public/shukran.svg';
+import mom from '../public/mom.svg';
+import dad from '../public/dad.svg';
+import cloud from '../public/cloud.svg';
 
 
 export default function Home() {
   
-  // Maplestory
+  // Family Members
   const classFilters = {
     // key : value
     1: 'Rawan',
@@ -65,6 +72,38 @@ export default function Home() {
               }
             </tbody>
           </table>
+        </div>
+        <div>
+          {/* cloud for characters to hide */}
+          <Image 
+            src={cloud}
+            alt="cloud"
+          />
+          {/* characters */}
+          <Image 
+            src={rawan}
+            alt="rawan"
+          />
+          <Image 
+            src={jena}
+            alt="jena"
+          />
+          <Image 
+            src={rama}
+            alt="rama"
+          />
+          <Image 
+            src={shukran}
+            alt="shukran"
+          />
+          <Image 
+            src={mom}
+            alt="mom"
+          />
+          <Image 
+            src={dad}
+            alt="dad"
+          />
         </div>
       </main>
     </>
