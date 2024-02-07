@@ -18,6 +18,13 @@
 .bitmask {
   position: sticky;
   padding: 1rem;
-  border: solid var(--dark-blue);
-  background-color: var(--light-blue);
+  background-color: #fff;
+  border: solid #666;
+  border-radius: 25%;
+  width: auto;
+  height: auto;
+  box-shadow: 2px 2px 20px 1px #666;
+  /* background-image: url('../public/cloud.svg');
+  background-size: fill;
+  background-repeat: no-repeat; */
 }
