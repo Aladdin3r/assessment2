@@ -1,0 +1,23 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 20vh;
+}
+
+.bgImg {
+  z-index: -1;
+}
+
+#biggest_cloud :target {
+  z-index: 2;
+}
+
+.bitmask {
+  position: sticky;
+  padding: 1rem;
+  border: solid var(--dark-blue);
+  background-color: var(--light-blue);
+}
