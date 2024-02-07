@@ -1,6 +1,7 @@
 import Head from "next/head";
 import styles from "@/styles/Home.module.css";
 import { useState } from "react";
+import Image from "next/image";
 
 
 export default function Home() {
@@ -34,7 +35,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${styles.main}`}>
-      <input
+        <Image src="/a01386700_aladdin_assessment_2/img/sky.svg" width={1000} height={1000} alt="sky"/>
+        <input
           id="input"
           type="text"
           placeholder="Bitmask Decimal"
