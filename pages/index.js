@@ -1,6 +1,7 @@
 import Head from "next/head";
 import styles from "@/styles/Home.module.css";
 import { useState } from "react";
+import Header from "@/components/Header";
 import Image from "next/image";
 import bgImg from '../public/sky.svg';
 import rawan from '../public/rawan.svg';
@@ -43,6 +44,7 @@ export default function Home() {
         <link rel="icon" href="/rawan.svg" />
         <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap" rel="stylesheet"/>
       </Head>
+      <Header />
       <main className={`${styles.main}`}>
         <div className={styles.bgImg}>
           <Image 
