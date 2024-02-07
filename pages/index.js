@@ -52,6 +52,7 @@ export default function Home() {
             objectFit="cover"
           />
         </div>
+
         <div className={styles.bitmask}>
           <input
             id="input"
@@ -73,7 +74,8 @@ export default function Home() {
             </tbody>
           </table>
         </div>
-        <div>
+
+        <div className={styles.bobble}>
           {/* cloud for characters to hide */}
           <Image 
             src={cloud}
