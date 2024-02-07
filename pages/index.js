@@ -8,12 +8,12 @@ export default function Home() {
   // Maplestory
   const classFilters = {
     // key : value
-    1: 'Magician',
-    2: 'Thief',
-    4: 'Warrior',
-    8: 'Bowman',
-    16: 'Pirate',
-    32: 'Nothing'
+    1: 'Rawan',
+    2: 'Shukran',
+    4: 'Rama',
+    8: 'Jena',
+    16: 'Mom',
+    32: 'Dad'
   }
 
   const [input, setInput] = useState();
