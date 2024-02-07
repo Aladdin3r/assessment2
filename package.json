@@ -1,7 +1,6 @@
 {
-  "name": "a01386700_aladdin_assessment_2",
+  "name": "assessment_2",
   "version": "0.1.0",
-  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
