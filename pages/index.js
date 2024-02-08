@@ -49,6 +49,7 @@ export default function Home() {
       </Head>
       <Header />
       <main className={styles.main}>
+      <div className={styles.container}>
         <div className={styles.bgImg}>
           <Image 
             src={bgImg} 
@@ -81,7 +82,7 @@ export default function Home() {
         </div>
                 
                 {/* characters */}
-        <div className={styles.container}>
+        
           <Image 
             src={rawan}
             className={styles.bobble}
