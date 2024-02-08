@@ -52,6 +52,8 @@ export default function Home() {
             src={bgImg} 
             alt="sky"
             layout="fill"
+            fill={true}
+            priority={true}
             objectFit="cover"
           />
         </div>
