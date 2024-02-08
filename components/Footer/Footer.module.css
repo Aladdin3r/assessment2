@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3vh;
+ }
+ 
+ .footer {
+     padding: 1vh;
+     background-color: var(--white);
+     border: 1px solid var(--grey);
+     border-radius: 50%;
+     width: 20vw;
+     text-align: center;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     flex-wrap: wrap;
+     box-shadow: 0px 8px 8px 1px var(--grey);
+ }
